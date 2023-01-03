@@ -1,0 +1,13 @@
+Server 설정에 경로 / 이거로 안두고 /01Servlet이런식으로 둘꺼임. 여러 프로젝트를 한 프로젝트에 묶어서? 사용하기 위해?
+
+프로젝트 우클릭 - java EE tool - generate ~ 클릭해서 web.xml을 만들어주기, 필요함(xml파일은 설정값들을 저장하기 위함임.)
+
+alt + shift + s ==> HttpServlet(service), GenericServlet(destroy(), init()) 클릭하고 ok
+
+
+
+++ @ 애노테이션이라는 형태로 톰캣 서버에 알려주는거임.(Mapping된 URL?)
+
+			### CH01 - C03Servlet ###
+보통 jsp 파일들을 WEB-INF 안에다가 숨겨놓음 접근하지 말라고, 근데 getRequestDispatcher로 접근할 수 있게 한거고.
+보완성을 높이기 위함이 맞음.
